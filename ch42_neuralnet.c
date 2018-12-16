@@ -131,7 +131,7 @@ int main(int argc, char *argv[]){
 
     /* initialize weight value */
     init_weight_hidden(weight_hidden);
-    init_weight_hidden(weight_output);
+    init_weight_output(weight_output);
 
     /* 入力データの読み込み */
     num_of_entry = getdata(entry);
